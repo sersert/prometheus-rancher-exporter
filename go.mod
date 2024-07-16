@@ -1,4 +1,4 @@
-module github.com/infinityworks/prometheus-rancher-exporter
+module github.com/sersert/prometheus-rancher-exporter
 
 go 1.13
 
