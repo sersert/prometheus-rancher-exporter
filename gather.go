@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/infinityworks/prometheus-rancher-exporter/measure"
+	"github.com/sersert/prometheus-rancher-exporter/measure"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
