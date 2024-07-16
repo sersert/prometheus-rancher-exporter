@@ -2,7 +2,7 @@ FROM golang:1.9.1-alpine3.6 as builder
 LABEL maintainer="sersert"
 
 
-COPY . /go/src/github.com/infinityworks/prometheus-rancher-exporter
+COPY . /go/src/github.com/sersert/prometheus-rancher-exporter
 
 RUN apk --update add ca-certificates \
  && apk --update add --virtual build-deps go git \
